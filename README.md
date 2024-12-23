@@ -1,1 +1,3 @@
-# Social-Media-Plugin
+# Social Media Plugin
+
+Chrome extention for social media automation.
