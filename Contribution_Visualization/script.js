@@ -27,8 +27,8 @@ function generateGrid(contributions, sensitivity = 20) {
   const startDate = new Date();
   startDate.setDate(startDate.getDate() - 365); // Últimos 365 dias
 
-  for (let week = 0; week < 53; week++) {
-    for (let day = 0; day < 7; day++) {
+  for (let day = 0; day < 7; day++) {
+    for (let week = 0; week < 53; week++) {
       const currentDate = new Date(startDate);
       currentDate.setDate(startDate.getDate() + week * 7 + day);
 
